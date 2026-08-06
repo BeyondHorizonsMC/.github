@@ -1,68 +1,54 @@
 <div align="center">
 
-# ✨ Beyond Horizons ✨  
-**A Community-Driven Minecraft Experience**
+<img src="https://img.shields.io/badge/Minecraft-1.21.x-54f47f?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft 1.21.x"/>
+<img src="https://img.shields.io/badge/Network-Beyond%20Horizons-8A7FFB?style=for-the-badge" alt="Beyond Horizons Network"/>
+<img src="https://img.shields.io/discord/956303420497752154?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2" alt="Discord"/>
 
-Welcome to the official **Beyond Horizons** GitHub profile!  
-We’re excited to share the projects that power our Minecraft server and the community behind it.
+# Beyond Horizons
+
+**A community-driven Minecraft network - Slimefun, Skyblock, and beyond.**
+
+[Website](https://beyondhorizonsmc.com) · [Store](https://beyondhorizonsmc.com) · [Discord](https://discord.gg/cTpNHJTZZ3)
 
 </div>
 
----
+<br/>
 
-## 🚀 About Beyond Horizons
+## About
 
-Beyond Horizons is more than just a Minecraft server - it’s a living world built around creativity, collaboration, and adventure.  
-From custom mechanics to carefully designed events, everything we create is focused on delivering a memorable and rewarding experience for our players.
+Beyond Horizons is a Minecraft network built around two core worlds - a heavily customized **Slimefun** server and **Isles of Vale**, our Skyblock experience - connected through a shared proxy and backed by in-house tooling built to keep everything running fast and reliably.
 
-Whether you’re a builder, explorer, competitor, or developer, Beyond Horizons is a place where your ideas can grow.
+Nothing here is off-the-shelf. Every part of the network - from the systems players interact with in-game, to the tools running behind the scenes - is designed and maintained by our own development team.
 
----
+<br/>
 
-## 🌟 Features
+## Development
 
-- **Custom Plugins**  
-  Handcrafted plugins developed by the Valegate team to deliver unique gameplay mechanics and server features.
+Beyond Horizons is powered by a growing library of hundreds of custom plugins, spanning gameplay systems, moderation tools, network infrastructure, and quality-of-life features. Many of these are private and built specifically for our network, while select projects are open here for the community to explore, use, and contribute to.
 
-- **Active & Friendly Community**  
-  A welcoming player base that values cooperation, creativity, and fun.
+Our public repositories give a glimpse into that wider ecosystem - custom content systems, community tools, and integrations that connect our Minecraft servers with the platforms our players use every day.
 
-- **Regular Updates**  
-  Frequent improvements, optimizations, and new content to keep the experience fresh.
+<br/>
 
-- **Events & Tournaments**  
-  Server-wide events, competitions, and challenges designed to bring the community together.
+## Design Philosophy
 
----
+We approach both development and design with the same standard: everything should feel intentional. That means custom mechanics instead of generic plugins, a consistent visual identity across our store, website, and in-game systems, and infrastructure built to stay stable as the network grows.
 
-## 🛠️ Development
+<br/>
 
-Beyond Horizons runs on a mix of:
-- **Custom-built plugins** developed in-house  
-- **Well-known community plugins**, carefully configured to fit our vision
+## Get Involved
 
-This GitHub organization hosts our public projects, tools, and experiments.  
-We welcome:
-- Bug reports
-- Feature suggestions
-- Pull requests
-- General feedback from fellow developers
+We're happy to have other developers poke around:
 
-If you’re passionate about Minecraft development and want to contribute, you’re always welcome here.
+- 🐛 **Found a bug?** Open an issue on the relevant repo
+- 💡 **Have an idea?** We welcome feature suggestions and discussion
+- 🔧 **Want to contribute?** Pull requests are always welcome
+- 💬 **Just curious?** Come say hi in our [Discord](https://discord.gg/cTpNHJTZZ3)
 
----
-
-## 💬 Get Involved
-
-- Explore our repositories to see what we’re building
-- Open an issue to suggest improvements
-- Contribute code or ideas
-- Join our community and help shape Valegate’s future
-
----
+<br/>
 
 <div align="center">
 
-✨ **Thanks for stopping by - welcome to Beyond Horizons!** ✨  
+*Built by the Beyond Horizons team - for the Beyond Horizons community.*
 
 </div>
