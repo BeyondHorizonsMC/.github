@@ -1,54 +1,49 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Minecraft-1.21.x-54f47f?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft 1.21.x"/>
-<img src="https://img.shields.io/badge/Network-Beyond%20Horizons-8A7FFB?style=for-the-badge" alt="Beyond Horizons Network"/>
-<img src="https://img.shields.io/discord/956303420497752154?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2" alt="Discord"/>
-
 # Beyond Horizons
 
-**A community-driven Minecraft network - Slimefun, Skyblock, and beyond.**
+**A Minecraft network built from the ground up: heavily customized Slimefun, Skyblock, and the tooling that holds it all together.**
 
-[Website](https://beyondhorizonsmc.com) · [Store](https://beyondhorizonsmc.com) · [Discord](https://discord.gg/cTpNHJTZZ3)
+<img src="https://img.shields.io/badge/Minecraft-26.1-54f47f?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft 26.1"/>
+<img src="https://img.shields.io/badge/Paper-26.1-F7CF0D?style=for-the-badge" alt="Paper 26.1"/>
+<img src="https://img.shields.io/badge/Java-25-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 25"/>
+<img src="https://img.shields.io/discord/956303420497752154?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2" alt="Discord"/>
+
+[**Website**](https://beyondhorizonsmc.com) · [**Store**](https://beyondhorizonsmc.com) · [**Discord**](https://discord.gg/cTpNHJTZZ3)
 
 </div>
 
-<br/>
+---
 
-## About
+## 🌍 The network
 
-Beyond Horizons is a Minecraft network built around two core worlds - a heavily customized **Slimefun** server and **Isles of Vale**, our Skyblock experience - connected through a shared proxy and backed by in-house tooling built to keep everything running fast and reliably.
+| | |
+|---|---|
+| **Slimefun** | Our flagship server: Slimefun 4 and 30+ addons, maintained and rebalanced in-house, plus addons we write ourselves. |
+| **Isles of Vale** | Our Skyblock world, running on our own forks of the plugins it depends on. |
+| **The glue** | One proxy, shared ranks, claims, quests, pets and vaults across worlds, and a Discord bot that links the community to the game. |
 
-Nothing here is off-the-shelf. Every part of the network - from the systems players interact with in-game, to the tools running behind the scenes - is designed and maintained by our own development team.
+## 🛠️ What we build
 
-<br/>
+Every plugin on the network is either written by us or a fork we maintain, kept current with the latest Minecraft release.
 
-## Development
+- **Slimefun core & addons:** Slimefun 4, 30+ addons we maintain (machines, tech trees, farming, cooking, space travel), and new addons of our own.
+- **Gameplay systems:** land claims, rankups, quests, pets, minions, vaults, tab and HUD.
+- **Network infrastructure:** cross-server utilities, diagnostics, live maps, and our Discord integration.
+- **Shared libraries:** the common code our addons are built on.
 
-Beyond Horizons is powered by a growing library of hundreds of custom plugins, spanning gameplay systems, moderation tools, network infrastructure, and quality-of-life features. Many of these are private and built specifically for our network, while select projects are open here for the community to explore, use, and contribute to.
+## 🔒 About our source
 
-Our public repositories give a glimpse into that wider ecosystem - custom content systems, community tools, and integrations that connect our Minecraft servers with the platforms our players use every day.
+Our repositories are private and developed by the Beyond Horizons team. If you're a developer interested in working with us, reach out in [Discord](https://discord.gg/cTpNHJTZZ3).
 
-<br/>
+## 💬 Get in touch
 
-## Design Philosophy
-
-We approach both development and design with the same standard: everything should feel intentional. That means custom mechanics instead of generic plugins, a consistent visual identity across our store, website, and in-game systems, and infrastructure built to stay stable as the network grows.
-
-<br/>
-
-## Get Involved
-
-We're happy to have other developers poke around:
-
-- 🐛 **Found a bug?** Open an issue on the relevant repo
-- 💡 **Have an idea?** We welcome feature suggestions and discussion
-- 🔧 **Want to contribute?** Pull requests are always welcome
-- 💬 **Just curious?** Come say hi in our [Discord](https://discord.gg/cTpNHJTZZ3)
-
-<br/>
+- 🎮 **Play:** join the server and say hi
+- 🐛 **Found a bug in-game?** Report it in our [Discord](https://discord.gg/cTpNHJTZZ3)
+- 📧 **Business & partnerships:** [admin@beyondhorizonsmc.com](mailto:admin@beyondhorizonsmc.com)
 
 <div align="center">
 
-*Built by the Beyond Horizons team - for the Beyond Horizons community.*
+<sub>Built by the Beyond Horizons team, for the Beyond Horizons community.</sub>
 
 </div>
