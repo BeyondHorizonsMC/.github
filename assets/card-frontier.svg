@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 210" width="380" height="210">
+  <defs><linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a8442a"/><stop offset="1" stop-color="#f2a93b"/></linearGradient>
+  <radialGradient id="p" cx=".35" cy=".3"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#f7c948"/></radialGradient>
+  <path id="spark" d="M0-10C1-2 2-1 10 0 2 1 1 2 0 10-1 2-2 1-10 0-2-1-1-2 0-10Z" fill="#fff"/></defs>
+  <rect width="380" height="210" rx="20" fill="url(#c)"/>
+  <rect width="380" height="210" rx="20" fill="none" stroke="#fff" stroke-opacity=".18"/>
+  <g transform="translate(318 58)">
+    <g stroke="#fff3c4" stroke-width="4" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+      <path d="M0-36V-28M0 28V36M-36 0H-28M28 0H36M-25-25L-20-20M20 20L25 25M-25 25L-20 20M20-20L25-25"/></g>
+    <circle r="20" fill="url(#p)"/></g>
+  <use href="#spark" transform="translate(262 28) scale(.45)"><animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/></use>
+  <use href="#spark" transform="translate(360 118) scale(.35)"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="1.5s" repeatCount="indefinite"/></use>
+  <rect x="24" y="26" width="175" height="24" rx="12" fill="#000" fill-opacity=".22"/>
+  <text x="35" y="43" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#fff">FLAGSHIP SLIMEFUN</text>
+  <text x="24" y="92" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#fff">Frontier</text>
+  <text x="24" y="138" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#fff" opacity=".92">Brand-new Slimefun survival,</text>
+  <text x="24" y="162" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#fff" opacity=".92">built for Minecraft 26.3</text>
+  <rect x="24" y="182" width="46" height="4" rx="2" fill="#fff" opacity=".7"/>
+</svg>

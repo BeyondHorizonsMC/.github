@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#f2a93b"/><stop offset=".35" stop-color="#d68be0"/><stop offset=".7" stop-color="#8a5cc9"/><stop offset="1" stop-color="#3fc1c9"/></linearGradient>
+  <path id="spark" d="M0-10C1-2 2-1 10 0 2 1 1 2 0 10-1 2-2 1-10 0-2-1-1-2 0-10Z"/></defs>
+  <path d="M0 90 V62 L70 52 L130 60 L210 40 L290 56 L360 34 L430 52 L520 42 L600 58 L690 30 L770 48 L860 38 L950 56 L1030 42 L1110 54 L1200 44 V90Z" fill="url(#g)"/>
+  <use href="#spark" fill="#f2a93b" transform="translate(320 18) scale(.6)"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></use>
+  <use href="#spark" fill="#b98be8" transform="translate(640 10) scale(.8)"><animate attributeName="opacity" values=".2;1;.2" dur="3s" begin="1s" repeatCount="indefinite"/></use>
+  <use href="#spark" fill="#3fc1c9" transform="translate(940 20) scale(.5)"><animate attributeName="opacity" values=".2;1;.2" dur="3s" begin="2s" repeatCount="indefinite"/></use>
+</svg>

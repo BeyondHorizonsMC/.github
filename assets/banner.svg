@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1340"/>
+      <stop offset=".45" stop-color="#4a3a9e"/>
+      <stop offset=".8" stop-color="#3d6fc4"/>
+      <stop offset="1" stop-color="#4fb7c9"/>
+    </linearGradient>
+    <radialGradient id="pinkNeb"><stop offset="0" stop-color="#f08ad8" stop-opacity=".75"/><stop offset="1" stop-color="#f08ad8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="tealNeb"><stop offset="0" stop-color="#6ff0e0" stop-opacity=".55"/><stop offset="1" stop-color="#6ff0e0" stop-opacity="0"/></radialGradient>
+    <radialGradient id="planet" cx=".35" cy=".3"><stop offset="0" stop-color="#ffd3f6"/><stop offset=".6" stop-color="#d68be0"/><stop offset="1" stop-color="#8a5cc9"/></radialGradient>
+    <radialGradient id="moon" cx=".35" cy=".3"><stop offset="0" stop-color="#b9fff4"/><stop offset="1" stop-color="#3fa6b8"/></radialGradient>
+    <radialGradient id="sun" cx=".35" cy=".3"><stop offset="0" stop-color="#fff1a8"/><stop offset="1" stop-color="#f2a93b"/></radialGradient>
+    <linearGradient id="title" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#e2c6ff"/><stop offset=".7" stop-color="#f5a3e2"/><stop offset="1" stop-color="#8ff3e8"/></linearGradient>
+    <linearGradient id="trail" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <path id="spark" d="M0-10C1-2 2-1 10 0 2 1 1 2 0 10-1 2-2 1-10 0-2-1-1-2 0-10Z" fill="#fff"/>
+  </defs>
+  <clipPath id="r"><rect width="1200" height="360" rx="28"/></clipPath>
+  <g clip-path="url(#r)">
+  <rect width="1200" height="360" fill="url(#sky)"/>
+  <ellipse cx="260" cy="120" rx="300" ry="160" fill="url(#pinkNeb)" filter="url(#blur)"/>
+  <ellipse cx="980" cy="260" rx="320" ry="170" fill="url(#tealNeb)" filter="url(#blur)"/>
+  <ellipse cx="700" cy="60" rx="220" ry="90" fill="url(#pinkNeb)" opacity=".5" filter="url(#blur)"/>
+  <circle cx="135" cy="123" r="0.9" fill="#fff" opacity="0.57"/>
+  <circle cx="70" cy="100" r="1.3" fill="#fff" opacity="0.53"/>
+  <circle cx="722" cy="103" r="1.0" fill="#fff" opacity="0.76"/>
+  <circle cx="537" cy="237" r="1.4" fill="#fff" opacity="0.54"/>
+  <circle cx="105" cy="104" r="0.6" fill="#fff" opacity="0.49"/>
+  <circle cx="884" cy="234" r="0.7" fill="#fff" opacity="0.40"/>
+  <circle cx="671" cy="45" r="1.5" fill="#fff" opacity="0.69"/>
+  <circle cx="490" cy="259" r="1.7" fill="#fff" opacity="0.54"/>
+  <circle cx="179" cy="248" r="0.8" fill="#fff" opacity="0.73"/>
+  <circle cx="950" cy="270" r="0.7" fill="#fff" opacity="0.32"/>
+  <circle cx="558" cy="144" r="1.0" fill="#fff" opacity="0.80"/>
+  <circle cx="1156" cy="126" r="1.4" fill="#fff" opacity="0.46"/>
+  <circle cx="892" cy="68" r="1.4" fill="#fff" opacity="0.55"/>
+  <circle cx="200" cy="213" r="1.8" fill="#fff" opacity="0.64"/>
+  <circle cx="465" cy="282" r="1.5" fill="#fff" opacity="0.69"/>
+  <circle cx="522" cy="283" r="1.1" fill="#fff" opacity="0.56"/>
+  <circle cx="192" cy="84" r="1.2" fill="#fff" opacity="0.56"/>
+  <circle cx="441" cy="122" r="1.7" fill="#fff" opacity="0.31"/>
+  <circle cx="600" cy="197" r="1.0" fill="#fff" opacity="0.55"/>
+  <circle cx="393" cy="123" r="0.7" fill="#fff" opacity="0.82"/>
+  <circle cx="480" cy="285" r="1.6" fill="#fff" opacity="0.89"/>
+  <circle cx="939" cy="134" r="1.6" fill="#fff" opacity="0.34"/>
+  <circle cx="1197" cy="80" r="0.9" fill="#fff" opacity="0.76"/>
+  <circle cx="188" cy="113" r="0.8" fill="#fff" opacity="0.35"/>
+  <circle cx="547" cy="127" r="1.5" fill="#fff" opacity="0.65"/>
+  <circle cx="798" cy="232" r="1.7" fill="#fff" opacity="0.84"/>
+  <circle cx="58" cy="40" r="1.2" fill="#fff" opacity="0.53"/>
+  <circle cx="862" cy="263" r="0.7" fill="#fff" opacity="0.76"/>
+  <circle cx="164" cy="51" r="1.0" fill="#fff" opacity="0.86"/>
+  <circle cx="176" cy="105" r="1.6" fill="#fff" opacity="0.84"/>
+  <circle cx="251" cy="72" r="1.7" fill="#fff" opacity="0.54"/>
+  <circle cx="867" cy="181" r="1.1" fill="#fff" opacity="0.71"/>
+  <circle cx="554" cy="222" r="0.7" fill="#fff" opacity="0.67"/>
+  <circle cx="582" cy="202" r="1.5" fill="#fff" opacity="0.35"/>
+  <circle cx="587" cy="190" r="1.3" fill="#fff" opacity="0.87"/>
+  <circle cx="273" cy="203" r="0.9" fill="#fff" opacity="0.87"/>
+  <circle cx="1182" cy="265" r="1.5" fill="#fff" opacity="0.33"/>
+  <circle cx="1158" cy="52" r="0.7" fill="#fff" opacity="0.88"/>
+  <circle cx="99" cy="214" r="1.5" fill="#fff" opacity="0.63"/>
+  <circle cx="1066" cy="223" r="0.7" fill="#fff" opacity="0.40"/>
+  <circle cx="1189" cy="230" r="1.5" fill="#fff" opacity="0.61"/>
+  <circle cx="624" cy="270" r="1.0" fill="#fff" opacity="0.81"/>
+  <circle cx="841" cy="224" r="1.1" fill="#fff" opacity="0.43"/>
+  <circle cx="47" cy="77" r="0.7" fill="#fff" opacity="0.85"/>
+  <circle cx="862" cy="234" r="0.6" fill="#fff" opacity="0.58"/>
+  <circle cx="637" cy="19" r="0.8" fill="#fff" opacity="0.58"/>
+  <circle cx="530" cy="267" r="1.0" fill="#fff" opacity="0.52"/>
+  <circle cx="720" cy="276" r="1.3" fill="#fff" opacity="0.37"/>
+  <circle cx="49" cy="16" r="0.8" fill="#fff" opacity="0.40"/>
+  <circle cx="295" cy="9" r="0.7" fill="#fff" opacity="0.87"/>
+  <circle cx="480" cy="99" r="1.6" fill="#fff" opacity="0.81"/>
+  <circle cx="820" cy="95" r="1.7" fill="#fff" opacity="0.57"/>
+  <circle cx="895" cy="232" r="1.3" fill="#fff" opacity="0.44"/>
+  <circle cx="66" cy="56" r="0.7" fill="#fff" opacity="0.34"/>
+  <circle cx="874" cy="148" r="0.6" fill="#fff" opacity="0.52"/>
+  <circle cx="417" cy="187" r="1.5" fill="#fff" opacity="0.81"/>
+  <circle cx="635" cy="65" r="1.0" fill="#fff" opacity="0.59"/>
+  <circle cx="652" cy="14" r="1.6" fill="#fff" opacity="0.46"/>
+  <circle cx="859" cy="200" r="1.5" fill="#fff" opacity="0.75"/>
+  <circle cx="636" cy="22" r="1.6" fill="#fff" opacity="0.50"/>
+  <circle cx="755" cy="93" r="1.2" fill="#fff" opacity="0.43"/>
+  <circle cx="606" cy="69" r="0.7" fill="#fff" opacity="0.75"/>
+  <circle cx="826" cy="217" r="1.0" fill="#fff" opacity="0.37"/>
+  <circle cx="1058" cy="116" r="1.3" fill="#fff" opacity="0.61"/>
+  <circle cx="335" cy="154" r="1.2" fill="#fff" opacity="0.52"/>
+  <circle cx="693" cy="171" r="1.3" fill="#fff" opacity="0.48"/>
+  <circle cx="215" cy="8" r="1.0" fill="#fff" opacity="0.70"/>
+  <circle cx="949" cy="182" r="1.1" fill="#fff" opacity="0.46"/>
+  <circle cx="902" cy="155" r="1.2" fill="#fff" opacity="0.43"/>
+  <circle cx="1016" cy="148" r="0.9" fill="#fff" opacity="0.86"/>
+  <circle cx="949" cy="71" r="0.9" fill="#fff" opacity="0.37"/>
+  <circle cx="126" cy="125" r="0.6" fill="#fff" opacity="0.53"/>
+  <circle cx="546" cy="106" r="1.6" fill="#fff" opacity="0.80"/>
+  <circle cx="834" cy="152" r="1.1" fill="#fff" opacity="0.51"/>
+  <circle cx="39" cy="98" r="1.4" fill="#fff" opacity="0.78"/>
+  <circle cx="219" cy="125" r="1.2" fill="#fff" opacity="0.37"/>
+  <circle cx="425" cy="17" r="1.7" fill="#fff" opacity="0.60"/>
+  <circle cx="428" cy="152" r="1.1" fill="#fff" opacity="0.85"/>
+  <circle cx="693" cy="278" r="0.7" fill="#fff" opacity="0.73"/>
+  <circle cx="75" cy="192" r="0.8" fill="#fff" opacity="0.67"/>
+  <circle cx="146" cy="19" r="1.8" fill="#fff" opacity="0.53"/>
+  <circle cx="36" cy="153" r="1.7" fill="#fff" opacity="0.85"/>
+  <circle cx="981" cy="181" r="1.3" fill="#fff" opacity="0.65"/>
+  <circle cx="628" cy="286" r="1.8" fill="#fff" opacity="0.87"/>
+  <circle cx="1051" cy="81" r="0.8" fill="#fff" opacity="0.87"/>
+  <circle cx="725" cy="193" r="0.8" fill="#fff" opacity="0.78"/>
+  <circle cx="1148" cy="181" r="1.3" fill="#fff" opacity="0.58"/>
+  <circle cx="485" cy="181" r="1.0" fill="#fff" opacity="0.40"/>
+  <circle cx="412" cy="259" r="1.1" fill="#fff" opacity="0.63"/>
+  <circle cx="715" cy="255" r="1.5" fill="#fff" opacity="0.62"/>
+  <use href="#spark" transform="translate(120 70) scale(.9)" opacity=".9"><animate attributeName="opacity" values=".25;1;.25" dur="3s" begin="0s" repeatCount="indefinite"/></use>
+  <use href="#spark" transform="translate(330 210) scale(.6)" opacity=".9"><animate attributeName="opacity" values=".25;1;.25" dur="3s" begin="1.2s" repeatCount="indefinite"/></use>
+  <use href="#spark" transform="translate(470 50) scale(.7)" opacity=".9"><animate attributeName="opacity" values=".25;1;.25" dur="3s" begin=".6s" repeatCount="indefinite"/></use>
+  <use href="#spark" transform="translate(610 240) scale(.5)" opacity=".9"><animate attributeName="opacity" values=".25;1;.25" dur="3s" begin="2.1s" repeatCount="indefinite"/></use>
+  <use href="#spark" transform="translate(760 90) scale(.8)" opacity=".9"><animate attributeName="opacity" values=".25;1;.25" dur="3s" begin="1.6s" repeatCount="indefinite"/></use>
+  <use href="#spark" transform="translate(1080 70) scale(1)" opacity=".9"><animate attributeName="opacity" values=".25;1;.25" dur="3s" begin=".3s" repeatCount="indefinite"/></use>
+  <use href="#spark" transform="translate(1150 190) scale(.6)" opacity=".9"><animate attributeName="opacity" values=".25;1;.25" dur="3s" begin="2.4s" repeatCount="indefinite"/></use>
+  <use href="#spark" transform="translate(60 230) scale(.5)" opacity=".9"><animate attributeName="opacity" values=".25;1;.25" dur="3s" begin="1.9s" repeatCount="indefinite"/></use>
+  <use href="#spark" transform="translate(900 40) scale(.55)" opacity=".9"><animate attributeName="opacity" values=".25;1;.25" dur="3s" begin=".9s" repeatCount="indefinite"/></use>
+  <g opacity="0">
+    <animateTransform attributeName="transform" type="translate" values="-200 -40; 500 110" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.18;.25;1" dur="7s" repeatCount="indefinite"/>
+    <path d="M300 40 L420 75" stroke="url(#trail)" stroke-width="3" stroke-linecap="round"/>
+    <use href="#spark" transform="translate(420 75) scale(.7)"/>
+  </g>
+  <!-- ringed planet -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="6s" repeatCount="indefinite"/>
+    <ellipse cx="1075" cy="130" rx="92" ry="22" fill="none" stroke="#c9f1ff" stroke-width="5" opacity=".85" transform="rotate(-14 1075 130)"/>
+    <circle cx="1075" cy="130" r="52" fill="url(#planet)"/>
+    <path d="M983 130 A92 22 0 0 0 1167 130" fill="none" stroke="#c9f1ff" stroke-width="5" opacity=".95" transform="rotate(-14 1075 130)"/>
+    <circle cx="1057" cy="128" r="3.5" fill="#3a2363"/><circle cx="1089" cy="128" r="3.5" fill="#3a2363"/>
+    <path d="M1066 140 q7 6 14 0" stroke="#3a2363" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 6; 0 0" dur="5s" repeatCount="indefinite"/>
+    <circle cx="105" cy="120" r="24" fill="url(#moon)"/>
+    <circle cx="98" cy="118" r="2.2" fill="#1d4a55"/><circle cx="112" cy="118" r="2.2" fill="#1d4a55"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="4s" repeatCount="indefinite"/>
+    <circle cx="1120" cy="250" r="13" fill="url(#sun)"/>
+  </g>
+  <!-- mountains -->
+  <path d="M0 360 V300 L70 285 L130 296 L210 268 L290 290 L360 262 L430 284 L520 270 L600 292 L690 258 L770 280 L860 266 L950 288 L1030 270 L1110 286 L1200 272 V360Z" fill="#0b0a16"/>
+  <!-- explorer -->
+  <g fill="#0b0a16">
+    <circle cx="232" cy="248" r="7"/>
+    <path d="M226 256 h12 l3 16 h-18z"/>
+    <path d="M238 258 l14 -20" stroke="#0b0a16" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <rect x="450" y="64" width="300" height="32" rx="16" fill="#ffffff" fill-opacity=".12" stroke="#ffffff" stroke-opacity=".3"/>
+  <text x="600" y="85" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#fff">MINECRAFT NETWORK · SINCE 2015</text>
+  <text x="600" y="170" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="8" fill="url(#title)" filter="url(#glow)">BEYOND HORIZONS</text>
+  <text x="600" y="212" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" letter-spacing="3" fill="#e9e4ff" opacity=".95">Frontier   ✦   Isles of Vale   ✦   Origins</text>
+  </g>
+</svg>

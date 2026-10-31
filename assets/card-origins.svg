@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 210" width="380" height="210">
+  <defs><linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4a2f8f"/><stop offset="1" stop-color="#2f9e6e"/></linearGradient>
+  <radialGradient id="p" cx=".35" cy=".3"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#7af0b0"/></radialGradient>
+  <path id="spark" d="M0-10C1-2 2-1 10 0 2 1 1 2 0 10-1 2-2 1-10 0-2-1-1-2 0-10Z" fill="#fff"/></defs>
+  <rect width="380" height="210" rx="20" fill="url(#c)"/>
+  <rect width="380" height="210" rx="20" fill="none" stroke="#fff" stroke-opacity=".18"/>
+  <g transform="translate(318 60)">
+    <path d="M-9-34 H9 V-12 L28 22 A8 8 0 0 1 21 34 H-21 A8 8 0 0 1 -28 22 L-9 -12Z" fill="#ffffff" fill-opacity=".18" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-20 10 H20 L28 22 A8 8 0 0 1 21 34 H-21 A8 8 0 0 1 -28 22Z" fill="url(#p)"/>
+    <circle cx="-6" cy="22" r="3" fill="#fff"><animate attributeName="cy" values="28;0;28" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="7" cy="26" r="2" fill="#fff"><animate attributeName="cy" values="30;4;30" dur="2s" begin=".8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="2s" begin=".8s" repeatCount="indefinite"/></circle>
+    <rect x="-12" y="-40" width="24" height="7" rx="3" fill="#fff"/></g>
+  <use href="#spark" transform="translate(262 28) scale(.45)"><animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/></use>
+  <use href="#spark" transform="translate(360 118) scale(.35)"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="1.5s" repeatCount="indefinite"/></use>
+  <rect x="24" y="26" width="175" height="24" rx="12" fill="#000" fill-opacity=".22"/>
+  <text x="35" y="43" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#fff">ORIGINAL SLIMEFUN</text>
+  <text x="24" y="92" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#fff">Origins</text>
+  <text x="24" y="138" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#fff" opacity=".92">Survival supercharged with</text>
+  <text x="24" y="162" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#fff" opacity=".92">25+ Slimefun addons</text>
+  <rect x="24" y="182" width="46" height="4" rx="2" fill="#fff" opacity=".7"/>
+</svg>
